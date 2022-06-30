@@ -1,0 +1,85 @@
+.box-2{
+    flex: 9;
+    /*background-color: rgba(80, 206, 110, 0.45);*/
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding: 0px 5%;
+}
+
+.qImg, .SImg{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 10px black;
+    margin-right: 15px;
+}
+.SImg{
+    border-radius: 30%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+}
+#InputText{
+    width: 700px;
+    padding: 0px 3%;
+}
+#msgField{
+    width: 90%;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    padding: 7px;
+    margin-top: 30px;
+    box-shadow: 1px 2px 5px #053905;
+    resize: inherit;
+}
+#msgField:focus-visible{
+    outline-color: darkgreen;
+}
+#msgField:focus{
+    height: 70px;
+}
+#send{
+    display: none;
+}
+#sendImg{
+    height: 60px;
+    margin-bottom: -6px;
+    margin-left: -3px;
+}
+#sendImg:hover{
+    transform: scale(105% , 105%);
+}
+
+#sendImg:active{
+    transform: translate(4px, -4px);
+}
+.Post{
+    flex-wrap: nowrap;
+}
+.dateT{
+    float: right;
+    font-weight: 200;
+    font-family: ptSans;
+    color: #093c09eb;
+    text-shadow: 2px 3px #1e1e1e17;
+}
+
+
+@media only screen and (min-width: 1500px) {
+
+    .box-2{
+        margin-left: 10%;
+        margin-right: 20%;
+        padding: 0px;
+    }
+    .dateT{
+        position: absolute;
+        right: 20%;
+    }
+    #InputText{
+        padding: 0px 15%;
+    }
+}

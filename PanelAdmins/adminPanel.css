@@ -1,0 +1,400 @@
+.Main {
+    flex: 1 0 auto;
+    margin-bottom: 30px;
+}
+
+#exit {
+    display: none;
+    
+}
+
+div.Hhead:nth-child(1) > form:nth-child(1) > label:nth-child(1) > img:nth-child(1) {
+    
+    box-shadow: 0px 0px 10px rgba(121, 120, 118, 0.316);
+    border-radius: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80;
+}
+
+div.Hhead:nth-child(1) > form:nth-child(1) > label:nth-child(1) > img:nth-child(1):hover {
+    box-shadow: 1px 2px 3px #0e168e;
+    transform: scale(101% , 102%);
+}
+
+div.Hhead:nth-child(1) > form:nth-child(1) > label:nth-child(1) > img:nth-child(1):active {
+    box-shadow: 1px 2px 3px #080f6a;
+    transform: translate(2px, 4px);
+    background: rgba(14, 70, 214, 0.844);
+}
+   
+
+.container-1, .container-0{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-0 {
+    padding-top: 5px;
+    padding-left: 20px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.container-1 {
+    /*margin-bottom: 100px;*/
+    flex-wrap: wrap;
+    /*background:  rgba(80, 206, 110, 0.45);*/
+}
+
+.Hhead:first-child{
+    flex: 1;
+    width: 94px; 
+}
+.Hhead:last-child {
+    flex: 20;
+}
+.Hhead:last-child a {
+    text-decoration: none;
+}
+.Hhead:last-child a h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    min-height: 40px;
+    text-shadow: 1px 5px 20px #2b2b2b;
+}
+
+
+
+/*Меню*/
+.box-1{
+    flex: 1;
+    min-width: 310px;
+    margin-top: 2px;
+}
+
+
+/*___________________Контент_____________________________________*/
+
+.box-2{
+    flex: 4;
+    /*background-color: rgba(80, 206, 110, 0.45);*/
+    border-radius: 20px;
+    margin-left: 0.5%;
+}
+
+.box-3{
+    flex: 5;
+    /*background-color: rgba(80, 206, 110, 0.45);*/
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-right: 0.5%;
+}
+
+
+/*Заголовки розділів на головній*/
+.box-title h3 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 750;
+    margin: 2px 0px 0px 10px;
+    color:rgb(57, 207, 114);
+    text-shadow: 1px 5px 20px rgb(36, 36, 36);
+}
+
+/*Місцеположення назв рзділу(заголовків)*/
+.box-title {
+    border-radius: 5px;
+    padding: 2px;
+    
+    margin: 0 20% -15px 5%;    
+}
+
+
+
+/****************************************/
+.uContainer, .nContainer {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    /*background-color: rgba(18, 165, 91, 0.75);*/
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    /*box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.404);*/
+}
+
+
+/*
+
+для текста
+transition: width 0.4s ease-in-out
+
+*/
+
+/*Структура Post*/
+
+
+.add-form, .red-form, .del-form {
+    display: flex;
+    flex-wrap: wrap;
+    /*align-self: flex-end;*/
+    background-color: rgba(9, 91, 123, 0.84);
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.404);
+}
+
+.add-form form{
+    margin: 0px;
+}
+
+.box-2 > div:nth-child(2) > div:nth-child(1) > form:nth-child(2) {
+    margin: 0px 0px 0px 15px;
+}
+   
+
+.redForm1 {
+    width: 100%;
+}
+
+
+/*Зaголовки поста*/
+.sTitle{
+    text-align: left;
+    padding-left: 5px;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.sImg, .uuImg {
+    float: left;
+    margin-left: 10%;
+    width: 200px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+
+.sImg {
+    float: left;
+    margin: 7px 10px 7px 0;
+}
+
+
+.UText, .nText, .pText {
+    font-size: 18px;
+    font-weight: 450;
+    font-family: 'Times New Roman', Tahoma, serif;
+    margin: 5px;
+    
+}
+
+.textInput{
+    width: 120%;
+    height: 55px;
+    box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.6);
+    border-radius: 10px;
+    border: 1px solid rgba(12, 39, 27, 0.945);
+}
+#bioS {
+    width: 130%;
+    height: 30%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 3px 5px black;
+    font-family: Times New Roman;
+    font-size: 15px;
+}
+@media screen and (min-width: 1600px) {
+    .textInput{
+        width: 150%;
+        height: 55px;
+    }
+    .add-form, .red-form, .del-form {
+        padding: 10px 10% 10px 10%;
+    }
+
+    #bioS {
+        width: 180%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    
+}
+.textInput:focus {
+    height: 200px;
+}
+
+.EField {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 90%;
+    box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.6);
+    border-radius: 8px;
+    border: 1px solid rgba(12, 39, 27, 0.945);
+    padding: 3px 5px;
+}
+
+.box-3 > div:nth-child(2) > div:nth-child(2) > form:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+   
+
+#redPhoto {
+    margin-inline-end: 90%;
+    display: block;
+}
+
+#redText {
+    width: 100%;
+    height: 290px;
+}
+   
+
+.AImg {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px black;
+}
+   
+   
+.textInputAU{
+    width: 100%;
+
+    height: 20%;
+    box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.6);
+    border-radius: 10px;
+    border: 1px solid rgba(12, 39, 27, 0.945);
+}
+
+/*Кнопка ПРО НАС*/
+.box-2 > div:nth-child(2) > div:nth-child(1) > form:nth-child(3) > input:nth-child(1) {
+    margin-left: 15px;
+}
+   
+
+.windowRedPhoto {
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px 0px;
+}
+
+div.windowRedPhoto:nth-child(33) {
+    margin-top: 15px;
+}
+   
+div.windowRedPhoto:nth-child(34) {
+    margin-top: -5px;
+}
+
+div.windowRedPhoto:nth-child(35) > input:nth-child(3) {
+    margin: 10px;
+}
+   
+   
+div.windowRedPhoto:nth-child(33) > p:nth-child(1) {
+    margin: 0px;
+}
+   
+div.windowRedPhoto:nth-child(35) > p:nth-child(1) {
+    margin: 0px;
+}
+
+div.windowRedPhoto:nth-child(35) > input:nth-child(4) {
+    margin: 10px 0px 20px 0px;
+}
+
+
+
+
+/*Стилі для спику видалення*/
+.tbldel {
+    border-collapse: collapse;
+}
+
+.tbldel tr td {
+    text-align: center;
+    padding: 0px 10px 0px 5px;
+    /*box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);*/
+
+}
+
+.tbldel tr td label {
+     padding: 10px 0px 10px 0px
+}
+
+.delOtherPanel:hover {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    background-color: rgba(18, 165, 91, 0.75);
+}
+.deltitlepanel{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+}
+.deltitlepanel:hover{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+}
+
+.subTitle {
+    margin-top: 5px;
+    color: aqua;
+}
+
+.subTextT{
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+
+
+.submitBtn{
+    padding:10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.467);
+    width: max-content;
+    margin-top: 10px;  
+    background: aqua; 
+}
+
+.submitBtn:hover{
+    transform: scale(101% , 102%);
+    box-shadow: 0px 0px 10px rgba(107, 229, 233, 0.323);
+}
+
+.submitBtn:active{
+    transform: translate(2px, 4px);
+    background: rgba(9, 122, 130, 0.919);
+}
+
+
+.cancel {
+    padding: 10px;
+    background: #eeb797a3;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #dfdfdf;
+}
+.cancel:hover{
+    transform: scale(101% , 102%);
+    box-shadow: 0px 0px 10px rgba(121, 120, 118, 0.316);
+}
+.cancel:active{
+    transform: translate(2px, 4px);
+    background: rgba(163, 163, 151, 0.919);
+}

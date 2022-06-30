@@ -1,0 +1,32 @@
+.box-2{
+    flex: 9;
+    /*background-color: rgba(80, 206, 110, 0.45);*/
+    border-radius: 20px;
+    margin: 0px 2%;
+}
+.uContainer, .nContainer {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 5px;
+}
+.Post{
+    flex-direction: column;
+}
+
+.fileLink {
+    text-decoration: none;
+}
+
+.Post :active{
+    background-color: rgba(19, 100, 132, 0.94);
+}
+.dateT {
+    margin: 0px;
+    margin-right: 30px;
+    font-family: Arial, serif;
+    font-size: 15px;
+    font-weight: 550;
+    color: #4692e3e6;
+}

@@ -1,0 +1,123 @@
+#HImg{
+    width: auto;
+    height: 90px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+}
+
+/*________Контент___________________________________________________*/
+
+.box-2{
+    flex: 9;
+    margin-left: 4%;
+    margin-right: 2%;
+    padding: 10px 5px;
+}
+
+
+/*Структура Post*/
+
+.Post, .uPost {
+    padding: 20px 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.404);
+}
+
+.sText {
+    list-style: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 10px;
+}
+
+.UText, .mainText {
+    font-size: 18px;
+    font-weight: 450;
+    font-family: 'Times New Roman', Tahoma, serif;
+    margin: 5px;
+    
+}
+/*Зaголовки поста*/
+#sTitle, #sPositionName{
+    text-align: center;
+    padding-left: 5px;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#sTitle {
+    color: #1759c1d4;
+    text-shadow: 1px 2px 2px black;
+}
+
+.sPositionName {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(45, 205, 232);
+    text-shadow: 1px 2px 2px black;
+}
+
+.leftText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.lText{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rightText{
+    display: flex;
+    padding: 10px
+}
+
+.listTitle, .contactInfo {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.listTitle{
+    color: aliceblue;
+    text-shadow: 1px 2px 2px #000000cf;
+}
+
+.contactInfo {
+    color: whitesmoke;
+}
+
+.sText li a {
+    text-decoration: none;
+    color:rgba(76, 236, 221, 0.84);
+}
+
+.sImg, .uuImg {
+    width: 220px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/*
+Розмістити контакти в 4 стовпчика + 1 стовпчик "про нас"
+
+
+забрати маркери в скписках і провірити чи адекватно все працює
+*/
+/*
+      На кожен контакт вліпити якорь на блок конкретного працівника
+    на сторінці з контактами.
+*/

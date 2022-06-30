@@ -1,0 +1,125 @@
+.login-form {
+    margin: auto;
+    margin-top: auto;
+    margin-top: 8%;
+    background: linear-gradient( 135deg, rgba(28, 125, 164, 0.94),rgba(7, 72, 98, 0.94));
+    padding: 25px 15px 25px 25px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 10px black;
+    text-align: center;
+}
+
+.login-form > select:nth-child(1) {
+    width: 90%;
+    text-align: center;
+    background: #3762a4d6;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    color: whitesmoke;
+}
+
+option {
+    background: #3762a4b8;
+}
+
+option:checked {
+    background: #3763a4c6;
+}
+
+#linkIndex{
+    display: flex;
+    text-decoration: none;
+}
+
+.Hhead:first-child{
+    width:auto;
+}
+
+#textLink{
+    text-align: center;
+    font-weight: 900;
+    color: rgba(199, 247, 224, 0.651);
+    /*text-shadow: 1px 5px 20px black;*/
+    padding: 0px 5px;
+    font-size: 30px;
+    margin-block-start: 1em;
+    margin-block-end: .97em;
+}
+
+.Hhead:last-child h1{
+    padding-right: 150px;
+}
+
+#arrow{
+    width: auto;
+    height: 40px;
+    margin-block-start: 1.7em;
+    margin-block-end: 1.7em;
+}
+
+.linkCls:hover{
+    text-decoration: underline 1px white;
+}
+
+#linkIndex:active, #textLink:active, #arrow :active{
+    transform: translate(-2px, 0px);
+}
+
+
+.EField {
+    text-align: center;
+    margin: 10px 0px;
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px black;
+}
+
+#enter {
+    padding: 5px 35px;
+    font-size: 16;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(245, 222, 179, 0.623);
+    border: #0d0064;
+}
+#enter:hover{
+    transform: scale(102% , 102%);
+    box-shadow: 0px 0px 10px rgba(218, 245, 179, 0.74);
+    background: rgba(77, 208, 105, 0.083);
+    color: whitesmoke;
+}
+
+#enter:active{
+    transform: translate(2px, 4px);
+    background: rgba(207, 210, 30, 0.616);
+}
+
+.discribe {
+    display: grid;
+    padding: 5px 20px;
+    text-align: center;
+    color: rgba(242, 242, 242, 0.65);
+    width: max-content;
+    text-shadow: 1px 5px 20px #757575;
+   /*border-top: 2px solid rgba(22, 85, 6, 0.87);*/
+}
+
+#register {
+    padding: 2px 25px;
+    font-size: 14;
+    border-radius: 7px;
+    margin: 0px 28%;
+    box-shadow: 0px 0px 5px rgba(224, 227, 242, 0.62);
+    border: #0d0064;
+}
+
+#register:hover{transform: scale(102% , 103%);
+    box-shadow: 0px 0px 10px rgba(245, 222, 179, 0.74);
+    background: rgba(207, 210, 30, 0.11);
+}
+#register:active{
+    transform: translate(2px, 4px);
+    background: rgba(207, 210, 30, 0.616);
+}

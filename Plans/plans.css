@@ -1,0 +1,95 @@
+html,body {
+    height: 100%;
+}
+
+/*Меню*/
+.box-1{
+    flex: 2;
+    min-width: 310px;
+    margin-top: 2px;
+}
+
+.container-1 {
+    padding-bottom: 240px;
+}
+   
+
+
+
+/*________Контент___________________________________________________*/
+
+.box-2{
+    flex: 3;
+    /*background-color: rgba(80, 206, 110, 0.45);*/
+    border-radius: 20px;
+    margin-left: 4%;
+    margin-right: 2%;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.box-3 {
+    flex: 9;
+    border-radius: 20px;
+    margin-left: 0.05%;
+}
+
+/*Заголовок розділа*/
+/*Заголовки розділів на головній*/
+.box-title h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 750;
+    margin: 2px 0px 0px 10px;
+    color: rgb(68, 223, 249);
+    text-shadow: 1px 5px 20px rgb(36, 36, 36);
+}
+
+
+/****************************************/
+
+
+.nContainer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.FRAME > iframe:nth-child(1) {
+    min-width: 95%;
+    border-radius: 20px;
+    height: 600px;
+    margin-bottom: 20px;
+    box-shadow: 1px 3px 10px black;
+    border: none;
+    padding: 5px;
+    background-color: rgba(7, 72, 98, 0.94);
+} 
+
+.FRAME {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Post p, .UText {
+    font-size: 18px;
+    font-weight: 450;
+    font-family: 'Times New Roman', Tahoma, serif;
+    margin: 5px;
+    
+}
+
+#Cont1{
+    padding: 0px 0px 240px 0px;
+}
+
+
+.footer {
+    margin-top: 240px;
+}
+
+@media screen and  (min-width: 1600px){
+    .FRAME > iframe:nth-child(1) {
+        height: 780px;
+    } 
+}

@@ -1,0 +1,423 @@
+html,body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    font-family: "Times New Roman", serif;
+    background: radial-gradient(circle, #0b2162,#3b89dbe0) no-repeat center fixed;
+}
+
+.Main {
+    flex: 1 0 auto;
+    margin-bottom: 0px;
+    
+    background: url(LogoPsyBlue.png) no-repeat center fixed;
+    background-size: 40%;
+}
+
+header {
+    background: linear-gradient(135deg, rgba(28, 168, 210, 0.45), rgba(24, 67, 198, 0.87));
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+#HImg{
+    width: auto;
+    height: 90px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+}
+
+.container-1, .container-0{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-0 {
+    padding-top: 5px;
+    padding-left: 20px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.container-1 {
+    flex-wrap: wrap;
+    padding-bottom: 230px;
+}
+
+
+.Hhead:first-child{
+    flex: 1;
+    width: 94px; 
+}
+.Hhead:last-child {
+    flex: 20;
+}
+
+.Hhead:last-child h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+    min-height: 40px;
+    text-shadow: 1px 5px 20px #2b2b2b;
+}
+
+
+
+/*Меню*/
+.box-1{
+    flex: 2;
+    min-width: 310px;
+    margin-top: 2px;
+}
+
+.Menu {
+    background-color: rgb(102, 175, 240);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 20px black;
+    margin-bottom: 10px;
+}
+
+.Menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+
+}
+
+.Menu ul li {
+    padding: 2px;
+}
+
+.Menu ul li a {
+    display: block;
+    width: auto;
+
+    padding: 2px 10px;
+    margin-bottom: 1px;
+
+    background-color: rgba(67, 122, 96, 0.15);
+    text-decoration: none;
+    border-top: 2px solid rgba(17, 96, 166, 0.66);
+    border-bottom: 2px solid rgba(17, 96, 166, 0.66);
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px rgba(130, 130, 130, 0.15);
+    line-height: 12px;
+}
+
+.Menu ul li a p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 700;
+}
+
+.Menu ul li a:hover {
+    background-color: rgba(132, 226, 247, 0.761);
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.363);
+    transform: scale(102% , 102%);
+}
+
+.Menu ul li a:active {
+    background-color:rgba(84, 202, 228, 0.809);
+    transform: translate(2px ,4px);
+    
+}
+
+.Menu ul li a p:active {
+    color: rgba(67, 203, 233, 0.809);
+}
+
+#Active{
+    background-color: rgba(132, 225, 247, 0.62);
+}
+
+
+.Updates .uPost {
+    
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.UTitle h3 {
+    text-align: center;
+    padding-left: 5px;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: rgb(68, 223, 249);
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.UTitle a {
+    text-decoration: none;
+}
+   
+
+.uuTitle{
+    text-align: left;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 650;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+/*___________________Контент_____________________________________*/
+
+.box-2{
+    flex: 4;
+    /*background-color: rgba(80, 206, 110, 0.45);*/
+    border-radius: 20px;
+    margin-left: 0.5%;
+}
+
+.box-3{
+    flex: 5;
+    /*background-color: rgba(80, 206, 110, 0.45);*/
+    border-radius: 20px;
+    margin-left: 0.05%;
+}
+
+
+/*Заголовки розділів на головній*/
+.box-title h3 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 750;
+    margin: 2px 0px 0px 10px;
+    color: rgb(68, 223, 249);
+    text-shadow: 1px 5px 20px rgb(36, 36, 36);
+}
+
+/*Місцеположення назв рзділу(заголовків)*/
+.box-title {
+    border-radius: 5px;
+    padding: 2px;
+    
+    margin: 0 0% -5px 5%;    
+}
+
+
+
+/****************************************/
+.uContainer, .nContainer {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 5px;
+}
+
+
+/*Структура Post*/
+
+.Post, .uPost {
+    display: flex;
+    flex-wrap: wrap;
+    /*align-self: flex-end;*/
+    
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.Post {
+    background-color: rgba(7, 72, 98, 0.94);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.404);
+}
+
+.uPost {
+    background-color: none;
+    box-shadow: none;
+}
+
+/*Зaголовки поста*/
+.sTitle{
+    text-align: left;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 5px 20px 0px 5px;
+    color: rgba(240, 240, 240, 0.83);
+}
+
+.ContentPost{
+    margin: 5px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.sText{
+    color: #24d7d7eb;
+}
+
+.shareLink{
+    text-decoration: none;
+}
+
+.shareLink:visited{
+    color:rgba(31, 133, 230, 0.94);
+}
+
+.sImg {
+    float: left;
+    margin: 7px 10px 7px 5px;
+    width: 200px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+.dateT{
+    margin: 5px 20px 0px 12px;
+    font-family: Arial, serif;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+
+
+
+
+
+
+/*_____Підвал________________________________________________*/
+.footer {
+    flex-shrink: 0;
+    display: block;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 10px 0px 20px 0px;
+    background: linear-gradient(135deg, rgba(28, 168, 210, 0.45), rgba(24, 67, 198, 0.87));
+    color: white;
+}
+
+.container-2 p, .copyright {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contacts{
+    flex: 0 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: left;
+    
+}
+
+.contacts p {
+    text-align: left;
+}
+
+.contacts div ul {
+    list-style: none;
+    padding-inline-start: 15px;
+}
+
+.contacts div .name a, 
+.contacts div .pNumb a, 
+.contacts div .mail a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(255, 253, 253, 0.96);
+}
+ 
+.contacts div .pNumb p, 
+.contacts div .mail p {
+    color: rgba(14, 72, 74, 0.99);
+    text-shadow: 1px 1px #00000026;
+}
+
+.contacts div ul li h4 {
+    font-weight: 900;
+    color: #0e4886;
+    text-align: center;
+}
+
+.contacts div {
+    /*border-left: 5px solid green;*/
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    box-shadow: 0px 5px 10px rgba(8, 46, 65, 0.93);
+}
+
+.contact{
+    flex: 1;
+    background-color: rgba(26, 156, 196, 0.75);
+}
+*/
+
+.aboutUs {
+    flex: 0 1 100%;
+}
+
+.aboutUs ul {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.aboutUs a h4, .aboutUs a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.aboutUs a h4 {
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.btn-aboutUs {
+    box-shadow: 0px 0px 5px rgba(245, 222, 179, 0.623);
+    border-radius: 20px;
+    padding: 6px 20px;
+    margin-inline: auto;
+    width: max-content;
+}
+.btn-aboutUs:hover{
+    transform: scale(102% , 103%);
+    box-shadow: 0px 0px 10px rgba(245, 222, 179, 0.74);
+    background: rgba(207, 210, 30, 0.11);
+}
+
+.btn-aboutUs:active{
+    transform: translate(2px, 4px);
+    background: rgba(207, 210, 30, 0.616);
+}
+
+.aboutUs p {
+    font-weight: 700;
+    font-size: 1.15em;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 2px black;
+}
+
+
+.copyright p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-shadow: 1px 3px 2px black;
+}

@@ -1,0 +1,7 @@
+.box-2 {
+    flex: 9;
+    /*background-color: rgba(80, 206, 110, 0.45);*/
+    border-radius: 20px;
+    margin: 0% 2%;
+    padding-bottom: 240px;
+}

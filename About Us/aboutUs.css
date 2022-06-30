@@ -1,0 +1,18 @@
+.box-2 {
+    /*background-color: rgba(80, 206, 110, 0.45);
+    margin: 0% 2%;    //news.css
+    */
+    border-radius: 20px;
+}
+
+.BImg{
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px black;
+}
+
+@media screen and  (min-width: 1600px){
+    .Bimg{
+        width: 840px;
+    } 
+}
